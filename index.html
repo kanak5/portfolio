@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kanak Sethi · Portfolio</title>
+  <meta name="description" content="Portfolio of Kanak Sethi – CS undergraduate, Data Science Intern, AI builder." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════ TOP NAVBAR ══════ -->
+  <header class="topbar">
+    <div class="topbar-left">
+      <div class="ks-badge">KS</div>
+      <span class="topbar-name">Kanak Sethi</span>
+      <span class="topbar-sep">/</span>
+      <span class="topbar-breadcrumb">Portfolio</span>
+    </div>
+    <nav class="topbar-nav">
+      <a href="#projects" class="tnav-link">Projects</a>
+      <a href="#experience" class="tnav-link">Experience</a>
+      <a href="#overview" class="tnav-link">About</a>
+    </nav>
+    <div class="topbar-right">
+      <a href="mailto:kanak.sethi04@gmail.com" class="btn-touch" id="get-in-touch-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Get in touch
+      </a>
+    </div>
+  </header>
+
+  <!-- ══════ APP SHELL ══════ -->
+  <div class="app-shell">
+
+    <!-- ── LEFT SIDEBAR ── -->
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+
+        <div class="sidebar-section-title">
+          EXPLORE PROFILE
+          <span class="section-count">06 sections</span>
+        </div>
+
+        <div class="sidebar-search">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          <input type="text" placeholder="Search sections" id="sidebar-search-input" />
+          <span class="search-kbd">⌘K</span>
+        </div>
+
+        <nav class="sidebar-nav">
+          <a href="#overview" class="snav-item active" id="snav-overview" data-section="overview">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+            <span>Overview</span>
+            <span class="snav-count">00</span>
+          </a>
+          <a href="#projects" class="snav-item" id="snav-projects" data-section="projects">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 8l-4 4 4 4"/><path d="M17 8l4 4-4 4"/><path d="M14 4l-4 16"/></svg>
+            <span>Projects</span>
+            <span class="snav-count">03</span>
+          </a>
+          <a href="#experience" class="snav-item" id="snav-experience" data-section="experience">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>
+            <span>Experience</span>
+            <span class="snav-count">01</span>
+          </a>
+          <a href="#skills" class="snav-item" id="snav-skills" data-section="skills">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            <span>Skills</span>
+            <span class="snav-count">04</span>
+          </a>
+          <a href="#education" class="snav-item" id="snav-education" data-section="education">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            <span>Education</span>
+            <span class="snav-count">01</span>
+          </a>
+          <a href="#recognition" class="snav-item" id="snav-recognition" data-section="recognition">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+            <span>Recognition</span>
+            <span class="snav-count">05</span>
+          </a>
+        </nav>
+
+        <div class="sidebar-divider"></div>
+
+        <div class="quick-facts-title">QUICK FACTS</div>
+        <ul class="quick-facts">
+          <li>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            B.Tech · Computer Science
+          </li>
+          <li>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            India
+          </li>
+          <li>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+            Top 10 · Microsoft Innovate
+          </li>
+        </ul>
+
+      </div>
+    </aside>
+
+    <!-- ── MAIN CONTENT ── -->
+    <main class="main-pane">
+
+      <!-- File tab header -->
+      <div class="file-tab-bar">
+        <div class="file-tab active-tab">
+          <span class="file-tab-icon">&lt;/&gt;</span>
+          <span class="file-tab-name">kanak-sethi.profile</span>
+          <span class="file-tab-dot"></span>
+        </div>
+        <div class="file-tab-meta">read-only · portfolio</div>
+      </div>
+
+      <!-- ══ SECTION 01: OVERVIEW ══ -->
+      <section class="content-section" id="overview">
+        <div class="section-breadcrumb">
+          <span class="bc-num">01</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          <span class="bc-label">Profile overview</span>
+        </div>
+
+        <div class="overview-hero">
+          <div class="hero-pill">
+            <span class="hero-pill-dot"></span>
+            Computer Science · Class of 2027
+          </div>
+
+          <h1 class="hero-title">Hi, I'm Kanak Sethi.</h1>
+          <p class="hero-sub">
+            I turn complex data and user needs into clear, useful products — from AI-powered applications to analysis-ready workflows.
+          </p>
+
+          <div class="hero-actions">
+            <a href="mailto:kanak.sethi04@gmail.com" class="btn-contact" id="contact-me-btn">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Contact me
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg>
+            </a>
+            <button class="btn-copy" id="copy-email-btn" onclick="copyEmail()">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+              Copy email
+            </button>
+          </div>
+
+          <div class="code-block">
+            <pre><span class="c-keyword">const</span> <span class="c-var">profile</span> = {
+  <span class="c-prop">focus</span>: <span class="c-str">"data + AI"</span>,
+  <span class="c-prop">cgpa</span>: <span class="c-num">8.27</span>,
+  <span class="c-prop">builds</span>: <span class="c-num">3</span>
+}</pre>
+          </div>
+        </div>
+
+        <!-- Stats row -->
+        <div class="stats-row">
+          <div class="stat-card">
+            <div class="stat-val">3</div>
+            <div class="stat-label">Projects built</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-val">1</div>
+            <div class="stat-label">Experience</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-val green">8.27</div>
+            <div class="stat-label">CGPA</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-val">Top 10</div>
+            <div class="stat-label">Recognition</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ══ SECTION 02: PROJECTS ══ -->
+      <section class="content-section" id="projects">
+        <div class="section-heading">
+          <div class="sh-left">
+            <span class="sh-num">02</span>
+            <h2 class="sh-title">Projects</h2>
+          </div>
+          <span class="sh-sub">Selected work</span>
+        </div>
+        <div class="section-rule"></div>
+
+        <!-- Project 1 -->
+        <div class="proj-card" id="proj-dementia">
+          <div class="proj-card-header">
+            <div class="proj-card-left">
+              <span class="proj-num">01.</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="proj-icon"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              <span class="proj-name">Dementia Diaries</span>
+            </div>
+            <span class="diff-badge medium">MEDIUM</span>
+          </div>
+          <div class="proj-tags-line">
+            <span class="proj-tag-label">AI</span>
+            <span class="proj-tag-sep">·</span>
+            <span class="proj-tag-label">Full-stack</span>
+          </div>
+          <p class="proj-summary">A journaling app designed to help people with dementia revisit entries through search and emotion-based filters.</p>
+          <p class="proj-detail">Built authentication and entry search, then integrated an NLP model to classify journal entries as positive, negative, or neutral. Deployed on Vercel.</p>
+          <div class="proj-tech">
+            <span class="tech-pill">React</span>
+            <span class="tech-pill">Hugging Face</span>
+            <span class="tech-pill">Vercel</span>
+            <span class="tech-pill">Tailwind CSS</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="proj-card" id="proj-crypto">
+          <div class="proj-card-header">
+            <div class="proj-card-left">
+              <span class="proj-num">02.</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="proj-icon"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+              <span class="proj-name">Multi-Exchange Crypto Arbitrage Engine</span>
+            </div>
+            <span class="diff-badge hard">HARD</span>
+          </div>
+          <div class="proj-tags-line">
+            <span class="proj-tag-label">Data</span>
+            <span class="proj-tag-sep">·</span>
+            <span class="proj-tag-label">Automation</span>
+          </div>
+          <p class="proj-summary">A price-monitoring pipeline that surfaces potential crypto arbitrage opportunities across exchanges.</p>
+          <p class="proj-detail">Normalizes exchange prices using live FX rates, accounts for trading and withdrawal fees, and schedules collection runs with results saved for later analysis.</p>
+          <div class="proj-tech">
+            <span class="tech-pill">Python</span>
+            <span class="tech-pill">Supabase</span>
+            <span class="tech-pill">GitHub Actions</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="proj-card" id="proj-meme">
+          <div class="proj-card-header">
+            <div class="proj-card-left">
+              <span class="proj-num">03.</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="proj-icon"><path d="M7 8l-4 4 4 4"/><path d="M17 8l4 4-4 4"/><path d="M14 4l-4 16"/></svg>
+              <span class="proj-name">Meme Sentiment Classifier</span>
+            </div>
+            <span class="diff-badge medium">MEDIUM</span>
+          </div>
+          <div class="proj-tags-line">
+            <span class="proj-tag-label">Machine learning</span>
+            <span class="proj-tag-sep">·</span>
+            <span class="proj-tag-label">Vision</span>
+          </div>
+          <p class="proj-summary">A text-and-image classifier that compares signals from the words and visuals in a meme.</p>
+          <p class="proj-detail">Combines DistilBERT and CLIP inference with independent error handling. Flags conflicting text and image predictions in a Streamlit app.</p>
+          <div class="proj-tech">
+            <span class="tech-pill">Python</span>
+            <span class="tech-pill">CLIP</span>
+            <span class="tech-pill">PyTorch</span>
+            <span class="tech-pill">Streamlit</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ══ SECTION 03: EXPERIENCE ══ -->
+      <section class="content-section" id="experience">
+        <div class="section-heading">
+          <div class="sh-left">
+            <span class="sh-num">03</span>
+            <h2 class="sh-title">Experience</h2>
+          </div>
+          <span class="sh-sub">Where I've contributed</span>
+        </div>
+        <div class="section-rule"></div>
+
+        <div class="exp-card">
+          <div class="exp-card-header">
+            <div>
+              <div class="exp-role">Data Science Intern</div>
+              <div class="exp-company">BII Technologies · India</div>
+            </div>
+            <div class="exp-date">Jun – Jul 2025</div>
+          </div>
+          <ul class="exp-list">
+            <li>Scoped requirements with the Data Science team for an internal document-search RAG pipeline and developed its retrieval layer.</li>
+            <li>Built a customer-facing chatbot for the company website, enabling visitors to explore services and identify which best suit their needs.</li>
+            <li>Cleaned and consolidated structured and semi-structured data from multiple sources into analysis-ready datasets.</li>
+            <li>Used exploratory analysis to identify behavior patterns and feature trends, refining insights with senior-team feedback.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ══ SECTION 04: SKILLS ══ -->
+      <section class="content-section" id="skills">
+        <div class="section-heading">
+          <div class="sh-left">
+            <span class="sh-num">04</span>
+            <h2 class="sh-title">Skills</h2>
+          </div>
+          <span class="sh-sub">Tools &amp; technologies</span>
+        </div>
+        <div class="section-rule"></div>
+
+        <div class="skills-card">
+          <div class="skill-row">
+            <div class="skill-row-label">Languages</div>
+            <div class="skill-chips">
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">SQL</span>
+              <span class="tech-pill">C / C++</span>
+              <span class="tech-pill">Java</span>
+              <span class="tech-pill">JavaScript</span>
+            </div>
+          </div>
+          <div class="skills-divider"></div>
+          <div class="skill-row">
+            <div class="skill-row-label">Data &amp; ML</div>
+            <div class="skill-chips">
+              <span class="tech-pill">Pandas</span>
+              <span class="tech-pill">NumPy</span>
+              <span class="tech-pill">Matplotlib</span>
+              <span class="tech-pill">Seaborn</span>
+              <span class="tech-pill">PyTorch</span>
+              <span class="tech-pill">CLIP</span>
+              <span class="tech-pill">Hugging Face</span>
+            </div>
+          </div>
+          <div class="skills-divider"></div>
+          <div class="skill-row">
+            <div class="skill-row-label">AI / Apps</div>
+            <div class="skill-chips">
+              <span class="tech-pill">RAG</span>
+              <span class="tech-pill">Gemini API</span>
+              <span class="tech-pill">React</span>
+              <span class="tech-pill">Node.js</span>
+              <span class="tech-pill">FastAPI</span>
+              <span class="tech-pill">Streamlit</span>
+            </div>
+          </div>
+          <div class="skills-divider"></div>
+          <div class="skill-row">
+            <div class="skill-row-label">Platforms</div>
+            <div class="skill-chips">
+              <span class="tech-pill">Supabase</span>
+              <span class="tech-pill">MongoDB</span>
+              <span class="tech-pill">PostgreSQL</span>
+              <span class="tech-pill">GitHub Actions</span>
+              <span class="tech-pill">Vercel</span>
+              <span class="tech-pill">AWS</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ══ SECTION 05: EDUCATION ══ -->
+      <section class="content-section" id="education">
+        <div class="section-heading">
+          <div class="sh-left">
+            <span class="sh-num">05</span>
+            <h2 class="sh-title">Education</h2>
+          </div>
+          <span class="sh-sub">Academic background</span>
+        </div>
+        <div class="section-rule"></div>
+
+        <div class="edu-card">
+          <div class="edu-card-header">
+            <div>
+              <div class="edu-name">Bennett University</div>
+              <div class="edu-degree">Bachelor of Technology · Computer Science</div>
+            </div>
+            <div class="edu-date">Jul 2023 – Jul 2027</div>
+          </div>
+          <div class="edu-gpa-row">
+            <span class="edu-gpa-label">Cumulative GPA</span>
+            <span class="edu-gpa-val">8.27 / 10</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ══ SECTION 06: RECOGNITION ══ -->
+      <section class="content-section" id="recognition">
+        <div class="section-heading">
+          <div class="sh-left">
+            <span class="sh-num">06</span>
+            <h2 class="sh-title">Recognition &amp; learning</h2>
+          </div>
+          <span class="sh-sub">Certifications and awards</span>
+        </div>
+        <div class="section-rule"></div>
+
+        <div class="recog-card">
+          <!-- Award highlight -->
+          <div class="award-row">
+            <div class="award-left">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+              <div>
+                <div class="award-name">Top 10 Teams</div>
+                <div class="award-org">Microsoft Innovate Hackathon</div>
+              </div>
+            </div>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="award-arrow"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </div>
+
+          <div class="cert-divider"></div>
+
+          <!-- Certs list -->
+          <div class="cert-row">
+            <span class="cert-num">01</span>
+            <span class="cert-text">Database and SQL for Data Science — IBM · Coursera</span>
+          </div>
+          <div class="cert-row">
+            <span class="cert-num">02</span>
+            <span class="cert-text">Data Structures — UC San Diego · Coursera</span>
+          </div>
+          <div class="cert-row">
+            <span class="cert-num">03</span>
+            <span class="cert-text">Object-Oriented Programming in C++ — University of Illinois · Coursera</span>
+          </div>
+          <div class="cert-row">
+            <span class="cert-num">04</span>
+            <span class="cert-text">Machine Learning: Regression — University of Washington · Coursera</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ══ FOOTER ══ -->
+      <footer class="site-footer">
+        <div class="footer-left">
+          <span>Kanak Sethi</span>
+          <span class="footer-dot">·</span>
+          <span>Built with curiosity.</span>
+        </div>
+        <div class="footer-right">
+          <a href="mailto:kanak.sethi04@gmail.com" class="footer-link" id="footer-email-link">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Email
+          </a>
+          <a href="tel:+916376239218" class="footer-link" id="footer-phone-link">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.64A2 2 0 012 .18h3a2 2 0 012 1.72 12.05 12.05 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.05 12.05 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            Phone
+          </a>
+          <a href="#overview" class="footer-link" id="footer-top-link">
+            Back to top
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </div>
+      </footer>
+
+    </main>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
